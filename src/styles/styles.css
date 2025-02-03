@@ -1,0 +1,67 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0a192f; 
+    color: #ccd6f6; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding:40px
+
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #112240; 
+    padding: 50px;
+    margin-top: 100px;
+    margin-left: 50vh;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  h1 {
+    color: #ffd700; 
+    margin-bottom: 20px;
+    font-size: 2.5em;
+  }
+  
+  .intro {
+    color: #8892b0; 
+    font-size: 1.1em;
+    margin-bottom: 30px;
+  }
+  
+  .task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .task-card {
+    background-color: #233554; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .task-card h2 {
+    color: #ffd700; 
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .task-card p {
+    color: #a8b2d1; 
+    margin-bottom: 15px;
+  }
+  
+  .technologies
